@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby 'ruby 2.1.1'
+Ruby '2.1.1'
 gem 'rails', '4.1.1'
 gem 'sqlite3', group: :development
 gem 'sass-rails', '~> 4.0.3'
@@ -13,3 +13,4 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem 'carrierwave'
