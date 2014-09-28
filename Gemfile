@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-Ruby '2.1.1'
+ruby '2.1.1'
 gem 'rails', '4.1.1'
 gem 'sqlite3', group: :development
 gem 'sass-rails', '~> 4.0.3'
@@ -14,3 +14,5 @@ gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
 gem 'carrierwave'
+gem 'fog'
+gem 'figaro'
