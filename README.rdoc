@@ -1,28 +1,49 @@
-== README
+# Yelpdemo - a Yelp clone
+A project to develop a clone of Yelp developed from a [BaseRails] course.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Learning Objectives
+- To consolidate my Ruby on Rails skills. 
 
-Things you may want to cover:
+## How to run it
+```sh
+git clone git@github.com:odelevingne/yelpclone.git
+cd yelpclone
+rails s
 
-* Ruby version
+```
 
-* System dependencies
+Heroku
+----
+Click here to open the web page on Heroku: [App on Heroku]
 
-* Configuration
+## Technologies used
 
-* Database creation
+|Technology                 |Used for                        |
+|---------------------------|--------------------------------|
+|Ruby 2.1.2                 |Main programming language       |
+|Ruby on Rails 4.1.1        |Model View Controller Framework |
+|Heroku                     |Deployment: [App on Heroku]     |
+|Sqlite3                    |SQL Database for development    |
+|Postgrsql                  |SQL Database for deployment     |
+|Devise                     |Enabling users and admins       |
+|CarrierWave                |For file uploading              |
+|Fog                        |Ruby cloud services library     |
+|Amazon Web Services        |Bulk image hosting              |
+|ImageMagick                |A software suite for displaying, converting, and editing raster image files|
+|mini_magick                |manipulating images             |
+|Figaro                     |handling passwords and keys     |
+|searchkick                 |searching the database          |
+|HTML5                      |Web Pages                       |
+|CSS3                       |Styling                         |
+|Bootstrap                  |Base styling theme              |
+|will_paginate              | a pagination library           |
+|Geolocation/Geomapper      |Showing maps                    |
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Further work to do
+- Add search functionality
+- Add Geomapper for location services
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+[App on Heroku]:http://baseyelp.herokuapp.com/
+[BaseRails]:https://www.baserails.com/
