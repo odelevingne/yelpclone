@@ -1,4 +1,4 @@
-# Yelpdemo - a Yelp clone
+# Yelpdemo - A Yelp clone
 A project to develop a clone of Yelp developed from a [BaseRails] course.
 
 ## Learning Objectives
